@@ -4,7 +4,7 @@
 Portfolio management is a behavior that continuously allocates funds to different assets, and adjusts the proportion of funds that should be allocated to each asset in a timely manner according to market conditions. The topic of our project is a visualization system for portfolio management, which is based on my master's thesis: Explainable Uncertainties-based Deep Reinforcement Learning in Portfolio Management. The main purpose is to present the decision-making results of the deep learning model in asset management tasks so that users can monitor the decision made by the model so that users can trust the decision of the model more. When an abnormality occurs in the model, users can directly intervene with their knowledge to achieve expected results such as reducing losses. Because the system requires domain knowledge when an exception occurs, the system is mainly targeted at funding managers.
 
 ### 2. How to use the system
-
+We perform the project in python 3.8 version.
 Install the requirements of the project
 ```
 pip install -r requirements.txt
@@ -53,4 +53,4 @@ In decision global agent (Fig.8), when presenting the decision of the high-level
 ### 5. Conclusion:
 In this project, we try to build a visualization system based on the results of deep learning models in portfolio management tasks, in order to allow users to understand the model's decision. However, the existing deep learning model is difficult to explain, therefore we divide the problem into several small problems through the hierarchical model. When we find that there is an abnormal situation in the small problem, we can roughly understand the cause of the system error. We try to use the hierarchical architecture to explain model decisions as much as possible, hoping to make users more trustworthy in the decision-making behavior of our system.
 
-Note: Above data is for demo!
+Note: The above data is for demo!
